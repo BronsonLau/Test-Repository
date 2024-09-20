@@ -1,6 +1,6 @@
 #include<iostream>
 #include<stdio.h>
-const int max =20;
+const int max =50;
 
 enum error{underflow,successful,overflow};
 typedef struct Stack
@@ -68,5 +68,7 @@ int main()
         printf("%c",item);
         pop(&run);
     }
+
+    
     return 0;
 }
