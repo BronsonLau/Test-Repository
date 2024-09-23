@@ -1,6 +1,6 @@
 #include<iostream>
 #include<stdio.h>
-const int max =20;
+const int max = 30;
 
 enum error{underflow,successful,overflow};
 typedef struct Stack
