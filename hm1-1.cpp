@@ -68,5 +68,7 @@ int main()
         printf("%c",item);
         pop(&run);
     }
+
+    
     return 0;
 }
